@@ -1,0 +1,28 @@
+
+
+PORT=3000
+
+AI_PROVIDER=gemini
+AI_MODEL=gemini-2.5-flash
+GEMINI_API_KEY=AQ.Ab8RN6LBr6z-b55kMFCWR4ggfONIdH_17gY7xABuZ9GDp3jA-g
+
+SUPABASE_URL=https://rbymxiuylgijvdnuvczc.supabase.co
+SUPABASE_PUBLISHABLE_KEY=sb_publishable_RiVYEU8VMXCQjV9nxKUZPg_edDcNDTl
+SUPERBASE API_URL=https://rbymxiuylgijvdnuvczc.supabase.co/rest/v1/
+
+# ---------------------------------------------------------------------
+# PHASE 1 — AUTHENTICATION
+# ---------------------------------------------------------------------
+# Your SUPABASE_PUBLISHABLE_KEY above is already picked up as the browser
+# (anon) key, so login will work as-is. Optionally add the explicit name:
+#
+# SUPABASE_ANON_KEY=<same value as SUPABASE_PUBLISHABLE_KEY>
+#
+# RECOMMENDED — add your service_role key so the server can act as an
+# admin in later phases. Supabase -> Project Settings -> API -> service_role
+# This key must NEVER be sent to the browser.
+#
+# SUPABASE_SECRET_KEY=<your service_role key>
+#
+# NOTE: the line "SUPERBASE API_URL=..." above is not a valid env variable
+# (it has a space in the name) and is ignored. Safe to delete.
